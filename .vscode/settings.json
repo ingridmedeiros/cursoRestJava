@@ -1,0 +1,16 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.test.config": {
+        "name": "JUnit 4",
+        "workingDirectory": "${workspaceFolder}",
+        "args": ["-Dfile.encoding=UTF-8"],
+        "vmargs": ["-ea"]
+    },
+    "java.test.sourcePaths": [
+        "src/test/java"
+    ],
+    "java.test.outputPath": "target/test-classes",
+    "java.test.defaultConfig": "JUnit 4",
+    "java.test.report.showAfterExecution": "always"
+
+}
